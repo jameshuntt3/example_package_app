@@ -25,7 +25,7 @@ class _LoginPageState extends State<LoginPage> {
                   child: const Text('Sign Up'),
                 ),
                 ElevatedButton(
-                  onPressed: () => context.push('/onboarding'),
+                  onPressed: () => context.push('/registration'),
                   child: const Text('Onboarding'),
                 ),
               ],

@@ -15,7 +15,7 @@ class OnboardingRoutes {
 
   final List<RouteBase> routes = [
     GoRoute(
-      path: '/onboarding',
+      path: '/registration',
       pageBuilder: (context, _) => MaterialPage(
         child: BlocProvider<RegistrationController>(
           create: (_) => RegistrationController(),
